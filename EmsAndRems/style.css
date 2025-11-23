@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+h1 {
+  font-size: 2.25em;
+}
+p,
+ul {
+  font-size: 1.125em;
+}
+button {
+  /* font-size: 5rem; 80px */
+  font-size: 5rem;
+  background-color: coral;
+  color: #fff;
+  border: none;
+  outline: none;
+  padding: 1rem 1.25rem;
+  /* here the padding will be 16px and 20px */
+  /* padding: 1em 1.25em; */
+  /* here the padding will be 80px and 100px */
+}
