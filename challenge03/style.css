@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+.container {
+  background-color: #23424a;
+  height: 90vh;
+  padding: 10em 8em;
+  color: #fff;
+}
+.intro {
+  width: 80%;
+  max-width: 50%;
+}
+.intro h3 {
+  font-size: 3.5vw;
+  font-family: "Roboto";
+  line-height: 120%;
+  font-weight: 900;
+}
+.intro p {
+  font-family: "Roboto";
+  font-size: 1.6rem;
+  line-height: 150%;
+  padding: 1.2em 0;
+  font-weight: 400;
+  color: #ffffffd9;
+}
+.intro .bottom button {
+  text-transform: uppercase;
+  font-family: "Roboto";
+  font-size: 1.1rem;
+  padding: 1em 2.1em;
+  font-weight: 900;
+  letter-spacing: 1.1px;
+  border-radius: 100px;
+  border: none;
+  outline: none;
+  background-color: #38cfd9;
+  color: #23424a;
+  margin-top: 2em;
+}
