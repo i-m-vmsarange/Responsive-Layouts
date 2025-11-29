@@ -10,11 +10,18 @@ body {
   font-family: "Roboto";
   font-size: 1.3rem;
 }
+img {
+  max-width: 100%;
+}
 .container {
   width: 80%;
   max-width: 1600px;
   margin: 0 auto;
   padding: 3em 0;
+  border: 3px solid yellow;
+}
+.row {
+  display: flex;
 }
 .hero {
   padding: 100px 0;
@@ -22,8 +29,13 @@ body {
   height: 90vh;
   color: #fff;
 }
+.hero__img {
+  width: 30%;
+  align-self: flex-start;
+}
 .hero__text {
   width: 60%;
+  margin-right: 10%;
 }
 .hero__text h3 {
   font-size: 3rem;
@@ -48,6 +60,10 @@ body {
   background-color: #38cfd9;
   color: #23424a;
   margin-top: 2em;
+  cursor: pointer;
+}
+.hero__text button:hover {
+  opacity: 0.75;
 }
 .accent-color {
   color: #87629a;
@@ -61,9 +77,6 @@ body {
   background-color: #136c72;
   color: #fff;
   text-align: center;
-}
-.row {
-  display: flex;
 }
 .row .col > p {
   font-size: 1rem;
