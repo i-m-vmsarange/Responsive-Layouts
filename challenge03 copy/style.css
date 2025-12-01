@@ -13,6 +13,7 @@ body {
 img {
   max-width: 100%;
 }
+
 .container {
   width: 80%;
   max-width: 1600px;
@@ -30,11 +31,11 @@ img {
   color: #fff;
 }
 .hero__img {
-  width: 30%;
+  width: 32%;
   align-self: flex-start;
 }
 .hero__text {
-  width: 60%;
+  width: 62%;
   margin-right: 10%;
 }
 .hero__text h3 {
